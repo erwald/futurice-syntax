@@ -1,0 +1,72 @@
+// These colors are specific to the theme. Do not use in a package!
+
+// Futurice colors
+
+@futu-green: rgb(50, 158, 65);
+@futu-black: rgb(33, 15, 0);
+
+@futu-mint-tulip: rgb(205, 236, 228);
+@futu-mosque: rgb(0, 90, 75);
+@futu-sherpa-blue: rgb(0, 52, 65);
+
+@futu-periwinkle: rgb(190, 195, 230);
+@futu-violet: rgb(70, 40, 154);
+@futu-persian-indigo: rgb(80, 10, 90);
+
+@futu-solitude: rgb(238, 243, 245);
+@futu-bali-hai: rgb(128, 157, 175);
+@futu-prussian-blue: rgb(0, 31, 92);
+
+@futu-paris-daisy: rgb(255, 240, 70);
+@futu-rose: rgb(245, 143, 145);
+@futu-warm-red: rgb(255, 82, 64);
+
+@futu-warm-gray: rgb(242, 238, 230);
+@futu-gainsboro: rgb(225, 220, 220);
+@futu-almond: rgb(240, 214, 195);
+
+@futu-papaya-whip: rgb(255, 240, 210);
+@futu-moccasin: rgb(255, 245, 175);
+@futu-panache: rgb(230, 245, 220);
+
+// Config -----------------------------------
+@syntax-hue: 128;
+@syntax-saturation: 51%;
+@syntax-brightness: 40%;
+
+// Monochrome -----------------------------------
+@mono-1: @futu-warm-gray; // default text
+@mono-2: @futu-paris-daisy;
+@mono-3: @futu-mosque;
+
+// Colors -----------------------------------
+@hue-1: darken(@futu-green, 10%); // <-cyan
+@hue-2: @futu-green; // <-blue
+@hue-3: @futu-bali-hai; // <-purple
+@hue-4: @futu-rose; // <-green
+
+@hue-5: lighten(@futu-mosque, 20%); // <-red 1
+@hue-5-2: lighten(@futu-persian-indigo, 10%); // <-red 2
+
+@hue-6: @futu-warm-red; // <-orange 1
+@hue-6-2: lighten(@futu-green, 10%); // <-orange 2
+
+@old-hue-1:   hsl(197, 92%, 78%); // <-cyan
+@old-hue-2:   hsl(211, 97%, 98%); // <-blue
+@old-hue-3:   hsl(240, 58%, 68%); // <-purple
+@old-hue-4:   hsl(177, 72%, 77%); // <-green
+
+@old-hue-5:   hsl(211, 60%, 70%); // <-red 1
+@old-hue-5-2: hsl(211, 55%, 55%); // <-red 2
+
+@old-hue-6:   hsl(282, 82%, 80%); // <-orange 1
+@old-hue-6-2: hsl(264, 86%, 70%); // <-orange 2
+
+
+// Base colors -----------------------------------
+@syntax-fg: @mono-1;
+@syntax-bg: @futu-black;
+@syntax-selection: lighten(@futu-sherpa-blue, 1%);
+@syntax-gutter: darken(@syntax-fg, 36%);
+@syntax-guide: fade(@syntax-fg, 15%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66% );
