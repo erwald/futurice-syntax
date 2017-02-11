@@ -1,5 +1,5 @@
 # futurice-syntax theme
 
-A theme based on the colours of [Futurice](http://futurice.com/).
+An Atom theme in the colours of [Futurice](http://futurice.com/).
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Based on the [Ariake Dark Syntax theme](https://github.com/pathtrk/ariake-dark-syntax).
