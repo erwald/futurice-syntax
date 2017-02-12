@@ -37,19 +37,19 @@
 // Monochrome -----------------------------------
 @mono-1: @futu-warm-gray; // default text
 @mono-2: @futu-moccasin;
-@mono-3: @futu-mosque;
+@mono-3: lighten(@futu-mosque, 5%);
 
 // Colors -----------------------------------
-@hue-1: darken(@futu-green, 10%); // <-cyan, symbols, misc.
-@hue-2: @futu-green; // <-blue, functions
-@hue-3: @futu-bali-hai; // <-purple
-@hue-4: @futu-rose; // <-green, strings
+@hue-1: darken(@futu-mint-tulip, 20%); // <-cyan, symbols, misc.
+@hue-2: @futu-papaya-whip; // <-blue, functions
+@hue-3: @futu-green; // <-purple, keywords
+@hue-4: @futu-warm-red; // <-green, strings
 
-@hue-5: @futu-paris-daisy; // <-red 1, variables
-@hue-5-2: @futu-warm-red; // <-red 2, string interpolation
+@hue-5: lighten(@futu-green, 15%); // <-red 1, variables
+@hue-5-2: @futu-rose; // <-red 2, string interpolation
 
-@hue-6: lighten(@futu-green, 10%); // <-orange 1, types & constants
-@hue-6-2: lighten(@futu-green, 20%); // <-orange 2, classes
+@hue-6: @futu-bali-hai; // <-orange 1, types & constants
+@hue-6-2: @futu-periwinkle; // <-orange 2, classes
 
 // Old stuff! Kept for reference only.
 @old-unused-hue-1:   hsl(197, 92%, 78%); // <-cyan
@@ -64,9 +64,9 @@
 @old-unused-hue-6-2: hsl(264, 86%, 70%); // <-orange 2
 
 // Base colors -----------------------------------
-@syntax-fg: @mono-1;
+@syntax-fg: @futu-solitude;
 @syntax-bg: @futu-black;
 @syntax-selection: lighten(@futu-sherpa-blue, 1%);
-@syntax-gutter: darken(@syntax-fg, 36%);
+@syntax-gutter: darken(@mono-1, 36%);
 @syntax-guide: fade(@syntax-fg, 15%);
 @syntax-accent: hsl(@syntax-hue, 100%, 66% );
